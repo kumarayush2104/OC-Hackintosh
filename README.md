@@ -1,4 +1,4 @@
-# HP Pavilion bc015tx Hackintosh
+# HP Pavilion au624tx Hackintosh
 
 | Part       | Info                                                         |
 | ---------- | ------------------------------------------------------------ |
