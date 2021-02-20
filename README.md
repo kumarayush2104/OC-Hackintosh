@@ -19,11 +19,11 @@
 This EFI is for HP Pavillion 15-AU624TX, you can use this efi in near-by specs/model to boot hackintosh
 
 # Notes
--You need to disable Secure boot.
--Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,1 for your hackBook.
--dGPU ( 940mx ) is disabled via ssdt, you may have to modify it according to your bios device name !!
--All the necssary kexts and aml are already inside the EFI and every inbuilt hardware is working !!
--However this EFI is suitable for Catalina but with this EFI you can boot BigSur too (you may need to replace wifi kext of bigsur to make wifi work) ! (tested)
+-You need to disable Secure boot. <br>
+-Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,1 for your hackBook. <br>
+-dGPU ( 940mx ) is disabled via ssdt, you may have to modify it according to your bios device name !! <br>
+-All the necssary kexts and aml are already inside the EFI and every inbuilt hardware is working !! <br>
+-However this EFI is suitable for Catalina but with this EFI you can boot BigSur too (you may need to replace wifi kext of bigsur to make wifi work) ! (tested) <br>
 
 ## Not Working
 
@@ -50,7 +50,7 @@ This EFI is for HP Pavillion 15-AU624TX, you can use this efi in near-by specs/m
 
 ## Credits
 
--Apple ( For macOS )
--github.com/the-erik-kwok ( For helping me in patching battery )
--Hackintosh Community ( For thier guides )
--github.com/Greasy-Monkey ( For help and Support )
+-Apple ( For macOS ) <br>
+-github.com/the-erik-kwok ( For helping me in patching battery ) <br> 
+-Hackintosh Community ( For thier guides ) <br>
+-github.com/Greasy-Monkey ( For help and Support ) <br>
