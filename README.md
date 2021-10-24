@@ -13,22 +13,21 @@
 | Ethernet   | RTL8100/8169 PCI Express Gigabit Ethernet Controller         |
 | CardReader | Realtek PCIE Card Reader                                     |    
 
-
+## Warning
+I am not Responsible for bricked devices, proceed at your own risk !!
 
 ## Usage
 This EFI is for HP Pavillion 15-AU624TX, you can use this efi in near-by specs/model to boot hackintosh
 
 # Notes
--You need to disable Secure boot. <br>
--Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,1 for your hackBook. <br>
+-Disable Secure boot. <br>
+-Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2 for your hackBook. <br>
 -dGPU ( 940mx ) is disabled via ssdt, you may have to modify it according to your bios device name !! <br>
--All the necssary kexts and aml are already inside the EFI and every inbuilt hardware is working !! <br>
--However this EFI is suitable for Catalina but with this EFI you can boot BigSur too (you may need to replace wifi kext of bigsur to make wifi work) ! (tested) <br>
-
+-You need to change the wifi kext according to your macOS version (this repo uses catalina)
 ## Not Working
 
 1. Nvidia DGPU ( As you know, Optimus is not supported at the moment )
-2. You can face Fairplay4.0 issues
+2. You will face Fairplay4.0 issues
 
 ## Working
 
@@ -38,19 +37,18 @@ This EFI is for HP Pavillion 15-AU624TX, you can use this efi in near-by specs/m
 4. Ethernet
 5. WiFi
 6. Bluetooth
-7. Battery percentage
-8. Trackpad
+7. Battery
+8. Touchpad
 9. Sleep
 10. CPU power management
-11. Brightness keys
-12. Media keys
-13. Card reader
-14. HDMI-output (audio and video)
+11. Every func keys (Eg- Volume up/Down, Brightness up/Down)
+12. Card reader
+13. HDMI-output (audio and video)
 
 
 ## Credits
 
 -Apple ( For macOS ) <br>
 -github.com/the-erik-kwok ( For helping me in patching battery ) <br> 
--Hackintosh Community ( For thier guides ) <br>
+-Hackintosh Community ( For their guides ) <br>
 -github.com/Greasy-Monkey ( For help and Support ) <br>
