@@ -1,4 +1,4 @@
-# HP Pavilion au624tx Hackintosh
+# HP Pavilion au624tx
 
 | Part       | Info                                                         |
 | ---------- | ------------------------------------------------------------ |
