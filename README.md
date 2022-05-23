@@ -5,7 +5,7 @@
 | Model      | HP Pavilion au624tx                                          |
 | CPU        | Intel Core i5-7200U                                          |
 | Mem        | 8GB DDR4 2400 MHz                                            |
-| HDD        | Toshiba  1TB                                     |
+| SSD        | Crucial 250GB (SATA)                                         |
 | IGPU       | Intel HD Graphics 620                                        |
 | DGPU       | Nvidia GeForce 940MX                                         |
 | Sound Card | Realtek ALC295 (Layout ID = 13, 28 or 77)                    |
@@ -21,9 +21,11 @@ This EFI is for HP Pavillion 15-AU624TX, you can use this efi in near-by specs/m
 
 # Notes
 -Disable Secure boot. <br>
--Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2 for your hackBook. <br>
--dGPU ( 940mx ) is disabled via ssdt, you may have to modify it according to your bios device name !! <br>
--You need to change the wifi kext according to your macOS version (this repo uses catalina)
+-Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2/MacBookPro14,3 for your hackBook. <br>
+-This EFI is strictly for MacOS monetery only !! <br>
+-dGPU ( 940mx ) is disabled via boot parameter (-wegnoegpu) <br>
+-You need to change the wifi kext according to your macOS version (this repo uses monetery)
+
 ## Not Working
 
 1. Nvidia DGPU ( As you know, Optimus is not supported at the moment )
